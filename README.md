@@ -54,9 +54,6 @@ Manually changing DNS settings can be cumbersome for users, especially those who
 ## 🏷 Tags
 - dns, dns changer, netsh, cmd tool, networking, batch to exe, windows utility, dns switcher, google dns, cloudflare dns
 
-## 📝 License
-
-MIT License – Free to use, modify, and distribute.
 
 ## 🛠 Upcoming Version
 
