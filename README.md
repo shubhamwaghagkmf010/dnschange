@@ -1,9 +1,3 @@
-
----
-
-### ✅ Updated `dnschanger_info.json` File
-
-```json
 {
   "tool_name": "DNSChange",
   "version": "1.0.0",
@@ -20,7 +14,7 @@
     "Lightweight and portable – no installation required"
   ],
   "how_to_use": [
-    "1. Download the DNSChange.exe file from [Releases](https://github.com/YourUsername/dnschange/releases/latest).",
+    "1. Download the DNSChange.exe file from [Releases](https://github.com/shubhamwaghagkmf010/dnschange/releases/download/dnschange/DNSChange.exe).",
     "2. Right-click the file and select 'Run as Administrator'.",
     "3. Wait for the command to execute (CMD may briefly appear).",
     "4. DNS will be set automatically to the configured public IPs (Google DNS by default).",
