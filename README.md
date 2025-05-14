@@ -10,7 +10,7 @@
 - 🔄 Resets DNS settings to default (DHCP) if needed
 
 ## 📥 Download
-- Download the DNSChange.exe file from the [Releases Page](Releases).
+- Download the DNSChange.exe file from the [EXE](https://github.com/shubhamwaghagkmf010/dnschange/releases/download/dnschange/DNSChange.exe).
 
 ## 📚 What Is This?
 
@@ -30,7 +30,7 @@ Manually changing DNS settings can be cumbersome for users, especially those who
 
 ## 🛠 How to Use
 
-1. **Download the DNSChange.exe** file from the [Releases Page](Releases).
+1. **Download the DNSChange.exe** file from the [Assets](https://github.com/shubhamwaghagkmf010/dnschange/releases/tag/dnschange).
 2. **Right-click the file** and select **Run as Administrator**.
 3. Wait for the command to execute (the command prompt may briefly appear).
 4. DNS will be updated automatically to:
@@ -57,8 +57,8 @@ Manually changing DNS settings can be cumbersome for users, especially those who
 
 ## 🛠 Upcoming Version
 
-The updated version with more features (including GUI support and enhanced DNS options) is coming soon. Stay tuned!
+The updated version with more features (enhanced DNS options) is coming soon. Stay tuned!
 
 ## 🔗 Repository
 
-[GitHub Repository](https://github.com/shubhamwaghagkmf010/dnschange/releases/tag/dnschange)
+[GitHub Repository](https://github.com/shubhamwaghagkmf010/dnschange)
