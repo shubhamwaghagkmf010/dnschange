@@ -1,6 +1,6 @@
-# 🔧 DNSChanger Tool for Windows – One Click DNS Setup via CMD
+# 🔧 DNSChange Tool for Windows – One Click DNS Setup via CMD
 
-**DNSChanger** is a lightweight `.exe` tool that lets you instantly configure primary and secondary DNS servers on Windows using admin-level `netsh` commands. Perfect for users looking to switch to fast, secure DNS like Google or Cloudflare — all with a single click.
+**DNSChange** is a lightweight `.exe` tool that lets you instantly configure primary and secondary DNS servers on Windows using admin-level `netsh` commands. Perfect for users looking to switch to fast, secure DNS like Google or Cloudflare — all with a single click.
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 🖥 What Is This?
 
-**DNSChanger** is a portable Windows utility built using batch scripting and compiled to `.exe`. It runs `netsh` commands to change your DNS configuration instantly — no need to go into Control Panel or adapter settings.
+**DNSChange** is a portable Windows utility built using batch scripting and compiled to `.exe`. It runs `netsh` commands to change your DNS configuration instantly — no need to go into Control Panel or adapter settings.
 
 ---
 
@@ -38,7 +38,7 @@ Manually changing DNS settings in Windows is time-consuming and confusing for ma
 
 ## 🧱 How to Use
 
-1. ✅ Download the `DNSChanger.exe` file from [Releases](#).
+1. ✅ Download the `DNSChange.exe` file from [Releases](#).
 2. 🖱 **Right-click** on it.
 3. 🔐 Click on **“Run as Administrator”**.
 4. ⚙ DNS will automatically be set to:
