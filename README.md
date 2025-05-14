@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "author": "Shubham Wagh",
   "exe_file": "DNSChange.exe",
-  "description": "DNSChange is a portable Windows utility that sets your DNS server IPs automatically using netsh commands via a single click executable.",
-  "what_is_this": "DNSChange is a one-click DNS switching tool for Windows. It configures primary and secondary DNS IPs using the built-in command-line utility (netsh) without needing manual network settings.",
-  "why_it_exists": "This tool was created to save time and avoid the hassle of manually configuring DNS settings through Windows Control Panel or network adapter settings.",
+  "description": "DNSChange is a portable Windows utility that allows you to instantly change your DNS server IPs using built-in netsh commands. Designed for one-click use, it's ideal for users who want a faster and safer internet experience.",
+  "what_is_this": "DNSChange is a DNS configuration automation tool for Windows. Instead of changing DNS settings manually via Control Panel or network properties, it automates the process via a compiled .exe file that runs command-line instructions silently and effectively.",
+  "why_it_exists": "This tool was created to save time, reduce user errors, and eliminate the need for complex manual DNS configuration. It ensures even non-technical users can update their DNS settings securely and quickly.",
   "why_use_this": [
-    "Super fast DNS setup",
-    "No installation required",
-    "Works offline after download",
-    "Improves browsing speed and security by switching to public DNS like Google or Cloudflare",
-    "Ideal for non-technical users"
+    "Instant DNS configuration in one click",
+    "Bypasses manual steps in Control Panel",
+    "Increases browsing speed and privacy using reliable public DNS",
+    "No need to open CMD or remember commands",
+    "Lightweight and portable – no installation required"
   ],
   "how_to_use": [
-    "Download the DNSChange.exe file.",
-    "Right-click on it and select 'Run as Administrator'.",
-    "Your DNS settings will automatically update to use public DNS (e.g. 8.8.8.8 and 8.8.4.4).",
-    "Done! No manual typing or setting required."
+    "1. Download the DNSChange.exe file from the GitHub repository or release page.",
+    "2. Right-click the file and select 'Run as Administrator'.",
+    "3. Wait for the command to execute (CMD may briefly appear).",
+    "4. DNS will be set automatically to the configured public IPs (Google DNS by default).",
+    "5. You're done! DNS settings are now updated system-wide."
   ],
   "dns_applied": {
     "primary_dns": "8.8.8.8",
@@ -25,24 +26,28 @@
   },
   "technology_used": [
     "Windows Command Line (CMD)",
-    "netsh interface ip set dns",
-    "Batch scripting (compiled to .exe)"
+    "netsh interface ip set/add dns",
+    "Batch scripting compiled to executable (.exe)"
   ],
   "system_requirements": [
-    "Windows 10 or later",
-    "Admin privileges required"
+    "Operating System: Windows 10, 11, or later",
+    "Permissions: Administrator rights required to change network settings"
   ],
   "tags": [
     "dns",
     "dns changer",
+    "dns fixer",
     "netsh",
     "cmd tool",
-    "windows networking",
+    "networking",
+    "batch to exe",
+    "windows utility",
     "dns switcher",
-    "network fixer",
-    "batch to exe"
+    "internet speed",
+    "google dns",
+    "cloudflare dns"
   ],
   "repository": "https://github.com/shubhamwaghagkmf010/dnschange",
   "license": "MIT",
-  "created_with": "Batch script compiled into .exe for portability and ease of use."
+  "created_with": "Custom Windows batch script compiled into an executable using a BAT-to-EXE compiler. Designed for simplicity and speed."
 }
