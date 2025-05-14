@@ -1,53 +1,52 @@
-{
-  "tool_name": "DNSChange",
-  "version": "1.0.0",
-  "author": "Shubham Wagh",
-  "exe_file": "DNSChange.exe",
-  "description": "DNSChange is a portable Windows utility that allows you to instantly change your DNS server IPs using built-in netsh commands. Designed for one-click use, it's ideal for users who want a faster and safer internet experience.",
-  "what_is_this": "DNSChange is a DNS configuration automation tool for Windows. Instead of changing DNS settings manually via Control Panel or network properties, it automates the process via a compiled .exe file that runs command-line instructions silently and effectively.",
-  "why_it_exists": "This tool was created to save time, reduce user errors, and eliminate the need for complex manual DNS configuration. It ensures even non-technical users can update their DNS settings securely and quickly.",
-  "why_use_this": [
-    "Instant DNS configuration in one click",
-    "Bypasses manual steps in Control Panel",
-    "Increases browsing speed and privacy using reliable public DNS",
-    "No need to open CMD or remember commands",
-    "Lightweight and portable – no installation required"
-  ],
-  "how_to_use": [
-    "1. Download the DNSChange.exe file from the GitHub repository or release page.",
-    "2. Right-click the file and select 'Run as Administrator'.",
-    "3. Wait for the command to execute (CMD may briefly appear).",
-    "4. DNS will be set automatically to the configured public IPs (Google DNS by default).",
-    "5. You're done! DNS settings are now updated system-wide."
-  ],
-  "dns_applied": {
-    "primary_dns": "8.8.8.8",
-    "secondary_dns": "8.8.4.4"
-  },
-  "technology_used": [
-    "Windows Command Line (CMD)",
-    "netsh interface ip set/add dns",
-    "Batch scripting compiled to executable (.exe)"
-  ],
-  "system_requirements": [
-    "Operating System: Windows 10, 11, or later",
-    "Permissions: Administrator rights required to change network settings"
-  ],
-  "tags": [
-    "dns",
-    "dns changer",
-    "dns fixer",
-    "netsh",
-    "cmd tool",
-    "networking",
-    "batch to exe",
-    "windows utility",
-    "dns switcher",
-    "internet speed",
-    "google dns",
-    "cloudflare dns"
-  ],
-  "repository": "https://github.com/shubhamwaghagkmf010/dnschange",
-  "license": "MIT",
-  "created_with": "Custom Windows batch script compiled into an executable using a BAT-to-EXE compiler. Designed for simplicity and speed."
-}
+# 🔧 DNSChanger Tool for Windows – One Click DNS Setup via CMD
+
+**DNSChanger** is a lightweight `.exe` tool that lets you instantly configure primary and secondary DNS servers on Windows using admin-level `netsh` commands. Perfect for users looking to switch to fast, secure DNS like Google or Cloudflare — all with a single click.
+
+---
+
+## 🚀 Features
+
+- ✅ One-click DNS switching (no manual setup)
+- ⚡ Super fast – executes in seconds
+- 🛡 Requires Administrator access (for full system changes)
+- 🔄 Optional reset to automatic DNS (DHCP)
+- 💼 Portable – no installation required
+
+---
+
+## 🖥 What Is This?
+
+**DNSChanger** is a portable Windows utility built using batch scripting and compiled to `.exe`. It runs `netsh` commands to change your DNS configuration instantly — no need to go into Control Panel or adapter settings.
+
+---
+
+## 🎯 Why It Exists
+
+Manually changing DNS settings in Windows is time-consuming and confusing for many users. This tool eliminates the need for manual setup, making it easy and efficient to switch to fast and secure public DNS servers in seconds.
+
+---
+
+## ❓ Why Use This?
+
+- ⏱ Save time by avoiding manual steps
+- 🔒 Increase security with public DNS (e.g., Google, Cloudflare)
+- 🚀 Improve browsing speed and reliability
+- 🧠 No technical knowledge needed
+- 🧳 Works offline after download
+
+---
+
+## 🧱 How to Use
+
+1. ✅ Download the `DNSChanger.exe` file from [Releases](#).
+2. 🖱 **Right-click** on it.
+3. 🔐 Click on **“Run as Administrator”**.
+4. ⚙ DNS will automatically be set to:
+   - Primary: `8.8.8.8`
+   - Secondary: `8.8.4.4`
+5. 📢 Optional: Use a second tool (or update version) to reset DNS to automatic if needed.
+6. 🧾 That’s it – done in under 5 seconds!
+
+---
+
+
