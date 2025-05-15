@@ -1,4 +1,10 @@
-# 🔧 DNSChange - One Click DNS Setup for Windows
+ ## 📥 Select your choise
+- For [EXE](https://github.com/shubhamwaghagkmf010/dnschange/tree/main#-dnschange---one-click-dns-setup-for-windows)
+- For [CMD](https://github.com/shubhamwaghagkmf010/dnschange/tree/main#complete-steps)
+- For [GUI](https://github.com/shubhamwaghagkmf010/dnschange/tree/main#2-using-manual-graphical-user-interface-gui)
+ 
+
+## 1. Using EXE
 
 **DNSChange** is a portable Windows utility that lets you instantly change your DNS server IPs using built-in netsh commands. Designed for one-click use, it's ideal for users who want a faster and safer internet experience.
 
@@ -64,12 +70,7 @@ The updated version with more features (enhanced DNS options) is coming soon. St
 [GitHub Repository](https://github.com/shubhamwaghagkmf010/dnschange)
 
 
-
-
-
-
-
-#                                                         Complete Steps 
+# Using CMD
 
 # Guide to Setting DNS Servers
 
@@ -81,7 +82,7 @@ This document provides instructions on how to configure the DNS (Domain Name Sys
 2.  [Using Manual Graphical User Interface (GUI)](#using-manual-graphical-user-interface-gui)
 3.  [Important Notes](#important-notes)
 
-## 1. Using Command Prompt (CMD)
+## 2. Using Command Prompt (CMD)
 
 This method utilizes the `netsh` command-line utility for network configuration.
 
@@ -138,7 +139,7 @@ This method utilizes the `netsh` command-line utility for network configuration.
 6.  **Close Command Prompt:**
     * Type `exit` and press Enter, or simply close the window.
 
-## 2. Using Manual Graphical User Interface (GUI)
+## 3. Using Manual Graphical User Interface (GUI)
 
 This method involves using the Windows Settings app and the Network Connections window.
 
