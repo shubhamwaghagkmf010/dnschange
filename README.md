@@ -69,7 +69,7 @@ The updated version with more features (enhanced DNS options) is coming soon. St
 
 
 
-###############################
+#                                                         Complete Steps 
 
 # Guide to Setting DNS Servers
 
@@ -106,7 +106,7 @@ This method utilizes the `netsh` command-line utility for network configuration.
         netsh interface ip set dns name="Your Network Adapter Name" source="static" address="8.8.8.8"
         ```
         **Example (if your adapter name is "Ethernet & Wi-Fi"):**
-                          **For Ethernet**
+       **For Ethernet**
         ```
         netsh interface ipv4 set dns name="Ethernet" static 8.8.8.8
         ```
