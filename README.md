@@ -109,23 +109,21 @@ This method utilizes the `netsh` command-line utility for network configuration.
                           **For Ethernet**
         ```
         netsh interface ipv4 set dns name="Ethernet" static 8.8.8.8
-        netsh interface ipv4 add dns name="Ethernet" 8.8.4.4 index=2
         ```
-                             **For WI-FI**
+        **For WI-FI**
         ```
         netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8
-        netsh interface ipv4 add dns name="Wi-Fi" 8.8.4.4 index=2
         ```
 
 4.  **Add the Secondary DNS Server:**
     * Again, replace `"Your Network Adapter Name"` with the correct name.
     * Type the following command and press Enter:
          **Example (if your adapter name is "Ethernet & Wi-Fi"):**
-                          **For Ethernet**
+      **For Ethernet**
         ```
         netsh interface ipv4 add dns name="Ethernet" 8.8.4.4 index=2
         ```
-                             **For WI-FI**
+      **For WI-FI:**
         ```
         netsh interface ipv4 add dns name="Wi-Fi" 8.8.4.4 index=2
         ```
